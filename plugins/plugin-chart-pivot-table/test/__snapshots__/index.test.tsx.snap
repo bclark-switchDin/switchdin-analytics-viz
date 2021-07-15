@@ -1,0 +1,4161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plugin-chart-table-pivot CompactView: Table with no totals 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: auto;
+  width: 800px;
+  height: 380px;
+  overflow: scroll;
+}
+
+.emotion-1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: min-content;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.emotion-3 {
+  overflow: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(1,max-content);
+  grid-template-rows: max-content 0 26px 26px 26px 26px;
+}
+
+.emotion-4 {
+  overflow: hidden;
+  display: grid;
+  grid-column: span 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2,max-content);
+}
+
+.emotion-5 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bolder;
+  height: 26px;
+}
+
+.emotion-6 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-8 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-9 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-13 {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content;
+  grid-template-rows: repeat(4,26px) 26px 26px 26px 26px;
+}
+
+.emotion-14 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  grid-column: span 10;
+}
+
+.emotion-16 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 2;
+}
+
+.emotion-26 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 1;
+}
+
+.emotion-46 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-66 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+}
+
+<div
+  class="emotion-0"
+  data-testid="pivot-table"
+  height="400"
+  width="800"
+>
+  <div
+    class="emotion-1"
+  >
+    <div
+      class="emotion-2"
+    >
+      <div>
+        <div
+          class="emotion-3"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              class="emotion-5"
+            />
+            <div
+              class="emotion-6"
+            >
+              period
+            </div>
+            <div
+              class="emotion-6"
+            >
+              period_type
+            </div>
+          </div>
+          <div
+            class="emotion-8"
+          >
+            group_type
+          </div>
+          <div
+            class="emotion-9"
+          >
+            DirectDueToGroup
+          </div>
+          <div
+            class="emotion-8"
+          >
+            DueToGroup
+          </div>
+          <div
+            class="emotion-9"
+          >
+            SummaryGroup
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Variable
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-13"
+      >
+        <div
+          class="emotion-14"
+        >
+          AVG(decomp_volume)
+        </div>
+        <div
+          class="emotion-14"
+        >
+          AVG(volume_for_roi)
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2019
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2020
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2019
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            2020
+          </div>
+        </div>
+        <div
+          class="emotion-16"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-46"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          7.82M
+        </div>
+        <div
+          class="emotion-46"
+        />
+        <div
+          class="emotion-46"
+        >
+          -1.85M
+        </div>
+        <div
+          class="emotion-46"
+        />
+        <div
+          class="emotion-46"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          745
+        </div>
+        <div
+          class="emotion-46"
+        />
+        <div
+          class="emotion-46"
+        >
+          0
+        </div>
+        <div
+          class="emotion-46"
+        />
+        <div
+          class="emotion-46"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          -9.49M
+        </div>
+        <div
+          class="emotion-66"
+        />
+        <div
+          class="emotion-66"
+        >
+          345k
+        </div>
+        <div
+          class="emotion-66"
+        />
+        <div
+          class="emotion-66"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          745
+        </div>
+        <div
+          class="emotion-66"
+        />
+        <div
+          class="emotion-66"
+        >
+          0
+        </div>
+        <div
+          class="emotion-66"
+        />
+        <div
+          class="emotion-66"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          1.18M
+        </div>
+        <div
+          class="emotion-46"
+        >
+          1.18M
+        </div>
+        <div
+          class="emotion-46"
+        >
+          200k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          293k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          1.08M
+        </div>
+        <div
+          class="emotion-46"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          373k
+        </div>
+        <div
+          class="emotion-46"
+        >
+          373k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          20k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          51.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          21.2k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          1.66k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          59.2k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          0
+        </div>
+        <div
+          class="emotion-66"
+        >
+          3.04k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          50.9k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          1.58k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          1.65k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          0
+        </div>
+        <div
+          class="emotion-66"
+        >
+          0
+        </div>
+        <div
+          class="emotion-66"
+        >
+          20.1k
+        </div>
+        <div
+          class="emotion-66"
+        >
+          20.1k
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`plugin-chart-table-pivot CompactView: Table with totals 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: auto;
+  width: 800px;
+  height: 380px;
+  overflow: scroll;
+}
+
+.emotion-1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: min-content;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+.emotion-3 {
+  overflow: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(1,max-content);
+  grid-template-rows: max-content 0 26px 26px 26px 26px;
+}
+
+.emotion-4 {
+  overflow: hidden;
+  display: grid;
+  grid-column: span 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2,max-content);
+}
+
+.emotion-5 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bolder;
+  height: 26px;
+}
+
+.emotion-6 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-8 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-9 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-13 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 1;
+  width: auto;
+  height: auto;
+}
+
+.emotion-14 {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content;
+  grid-template-rows: repeat(4,26px) 26px 26px 26px 26px;
+}
+
+.emotion-15 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  grid-column: span 10;
+}
+
+.emotion-17 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 2;
+}
+
+.emotion-27 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 1;
+}
+
+.emotion-47 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-67 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-147 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: repeat(3,26px) 26px 26px 26px 26px;
+}
+
+.emotion-148 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  grid-row: span 3;
+}
+
+<div
+  class="emotion-0"
+  data-testid="pivot-table"
+  height="400"
+  width="800"
+>
+  <div
+    class="emotion-1"
+  >
+    <div
+      class="emotion-2"
+    >
+      <div>
+        <div
+          class="emotion-3"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              class="emotion-5"
+            />
+            <div
+              class="emotion-6"
+            >
+              period
+            </div>
+            <div
+              class="emotion-6"
+            >
+              period_type
+            </div>
+          </div>
+          <div
+            class="emotion-8"
+          >
+            group_type
+          </div>
+          <div
+            class="emotion-9"
+          >
+            DirectDueToGroup
+          </div>
+          <div
+            class="emotion-8"
+          >
+            DueToGroup
+          </div>
+          <div
+            class="emotion-9"
+          >
+            SummaryGroup
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Variable
+          </div>
+        </div>
+        <div
+          class="emotion-13"
+        >
+          Total
+        </div>
+      </div>
+      <div
+        class="emotion-14"
+      >
+        <div
+          class="emotion-15"
+        >
+          AVG(decomp_volume)
+        </div>
+        <div
+          class="emotion-15"
+        >
+          AVG(volume_for_roi)
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2019
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2020
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2019
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            2020
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-27"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-47"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          7.82M
+        </div>
+        <div
+          class="emotion-47"
+        />
+        <div
+          class="emotion-47"
+        >
+          -1.85M
+        </div>
+        <div
+          class="emotion-47"
+        />
+        <div
+          class="emotion-47"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          745
+        </div>
+        <div
+          class="emotion-47"
+        />
+        <div
+          class="emotion-47"
+        >
+          0
+        </div>
+        <div
+          class="emotion-47"
+        />
+        <div
+          class="emotion-47"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          -9.49M
+        </div>
+        <div
+          class="emotion-67"
+        />
+        <div
+          class="emotion-67"
+        >
+          345k
+        </div>
+        <div
+          class="emotion-67"
+        />
+        <div
+          class="emotion-67"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          745
+        </div>
+        <div
+          class="emotion-67"
+        />
+        <div
+          class="emotion-67"
+        >
+          0
+        </div>
+        <div
+          class="emotion-67"
+        />
+        <div
+          class="emotion-67"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          1.18M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          1.18M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          200k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          293k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          1.08M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          373k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          373k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          20k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          51.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          21.2k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          1.66k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          59.2k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          0
+        </div>
+        <div
+          class="emotion-67"
+        >
+          3.04k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          50.9k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          1.58k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          1.65k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          0
+        </div>
+        <div
+          class="emotion-67"
+        >
+          0
+        </div>
+        <div
+          class="emotion-67"
+        >
+          20.1k
+        </div>
+        <div
+          class="emotion-67"
+        >
+          20.1k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          283k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          289k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          242k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          210k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          -470k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          1.19M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          -1.24M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          390k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          1.22M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          281k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          289k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          204k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          210k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          217k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          216k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          486k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          486k
+        </div>
+      </div>
+      <div
+        class="emotion-147"
+      >
+        <div
+          class="emotion-148"
+        >
+          Total
+        </div>
+        <div
+          class="emotion-47"
+        >
+          6.33M
+        </div>
+        <div
+          class="emotion-67"
+        >
+          -8.78M
+        </div>
+        <div
+          class="emotion-47"
+        >
+          7.08M
+        </div>
+        <div
+          class="emotion-67"
+        >
+          344k
+        </div>
+        <div
+          class="emotion-47"
+        >
+          4.97M
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`plugin-chart-table-pivot Table with all totals 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: auto;
+  width: 800px;
+  height: 380px;
+  overflow: scroll;
+}
+
+.emotion-1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: min-content;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+.emotion-3 {
+  overflow: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2,max-content);
+  grid-template-rows: max-content max-content 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+
+.emotion-4 {
+  overflow: hidden;
+  display: grid;
+  grid-column: span 2;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2,max-content);
+}
+
+.emotion-5 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bolder;
+  height: 26px;
+}
+
+.emotion-6 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-8 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-9 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 2;
+}
+
+.emotion-10 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 2;
+}
+
+.emotion-14 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-22 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 2;
+  width: auto;
+  height: auto;
+}
+
+.emotion-23 {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content;
+  grid-template-rows: repeat(4,26px) 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+
+.emotion-24 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  grid-column: span 6;
+}
+
+.emotion-26 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 2;
+}
+
+.emotion-32 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 1;
+}
+
+.emotion-44 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 12;
+}
+
+.emotion-45 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-57 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-153 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: repeat(4,26px) 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+
+.emotion-154 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  grid-row: span 4;
+}
+
+<div
+  class="emotion-0"
+  data-testid="pivot-table"
+  height="400"
+  width="800"
+>
+  <div
+    class="emotion-1"
+  >
+    <div
+      class="emotion-2"
+    >
+      <div>
+        <div
+          class="emotion-3"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              class="emotion-5"
+            />
+            <div
+              class="emotion-6"
+            >
+              period
+            </div>
+            <div
+              class="emotion-6"
+            >
+              period_type
+            </div>
+          </div>
+          <div
+            class="emotion-8"
+          >
+            group_type
+          </div>
+          <div
+            class="emotion-9"
+          >
+            DirectDueToGroup
+          </div>
+          <div
+            class="emotion-10"
+          >
+            DueToGroup
+          </div>
+          <div
+            class="emotion-9"
+          >
+            SummaryGroup
+          </div>
+          <div
+            class="emotion-10"
+          >
+            Variable
+          </div>
+          <div
+            class="emotion-8"
+          >
+            period_type
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-22"
+        >
+          Total
+        </div>
+      </div>
+      <div
+        class="emotion-23"
+      >
+        <div
+          class="emotion-24"
+        >
+          AVG(decomp_volume)
+        </div>
+        <div
+          class="emotion-24"
+        >
+          AVG(volume_for_roi)
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-32"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-44"
+          style="color: transparent;"
+        >
+          :)
+        </div>
+        <div
+          class="emotion-45"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          20k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          3.04k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-45"
+        >
+          20.1k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          50.9k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-57"
+        >
+          20.1k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          283k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          289k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          191k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          191k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          96.2k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          144k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          281k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          289k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          190k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          191k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          113k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          113k
+        </div>
+      </div>
+      <div
+        class="emotion-153"
+      >
+        <div
+          class="emotion-154"
+        >
+          Total
+        </div>
+        <div
+          class="emotion-45"
+        >
+          175k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          188k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          175k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          151k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          745k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          745k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          60.1k
+        </div>
+        <div
+          class="emotion-57"
+        >
+          133k
+        </div>
+        <div
+          class="emotion-45"
+        >
+          2.37M
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`plugin-chart-table-pivot Table with no totals 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: auto;
+  width: 800px;
+  height: 380px;
+  overflow: scroll;
+}
+
+.emotion-1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: min-content;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.emotion-3 {
+  overflow: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2,max-content);
+  grid-template-rows: max-content max-content 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+
+.emotion-4 {
+  overflow: hidden;
+  display: grid;
+  grid-column: span 2;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2,max-content);
+}
+
+.emotion-5 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bolder;
+  height: 26px;
+}
+
+.emotion-6 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-8 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-9 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 2;
+}
+
+.emotion-10 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 2;
+}
+
+.emotion-14 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+  grid-row: span 1;
+}
+
+.emotion-22 {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content;
+  grid-template-rows: repeat(4,26px) 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+
+.emotion-23 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  grid-column: span 6;
+}
+
+.emotion-25 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 2;
+}
+
+.emotion-31 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 1;
+}
+
+.emotion-43 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: bolder;
+  border-top: 1px solid #E0E0E0;
+  grid-column: span 12;
+}
+
+.emotion-44 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: #F7F7F7;
+  border-top: 1px solid #E0E0E0;
+}
+
+.emotion-56 {
+  padding: 3px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-top: 1px solid #E0E0E0;
+}
+
+<div
+  class="emotion-0"
+  data-testid="pivot-table"
+  height="400"
+  width="800"
+>
+  <div
+    class="emotion-1"
+  >
+    <div
+      class="emotion-2"
+    >
+      <div>
+        <div
+          class="emotion-3"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              class="emotion-5"
+            />
+            <div
+              class="emotion-6"
+            >
+              period
+            </div>
+            <div
+              class="emotion-6"
+            >
+              period_type
+            </div>
+          </div>
+          <div
+            class="emotion-8"
+          >
+            group_type
+          </div>
+          <div
+            class="emotion-9"
+          >
+            DirectDueToGroup
+          </div>
+          <div
+            class="emotion-10"
+          >
+            DueToGroup
+          </div>
+          <div
+            class="emotion-9"
+          >
+            SummaryGroup
+          </div>
+          <div
+            class="emotion-10"
+          >
+            Variable
+          </div>
+          <div
+            class="emotion-8"
+          >
+            period_type
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+          <div
+            class="emotion-14"
+          >
+            Custom
+          </div>
+          <div
+            class="emotion-8"
+          >
+            Standard
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-22"
+      >
+        <div
+          class="emotion-23"
+        >
+          AVG(decomp_volume)
+        </div>
+        <div
+          class="emotion-23"
+        >
+          AVG(volume_for_roi)
+        </div>
+        <div
+          class="emotion-25"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-25"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-25"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-25"
+        >
+          <div>
+            2017
+          </div>
+        </div>
+        <div
+          class="emotion-25"
+        >
+          <div>
+            2018
+          </div>
+        </div>
+        <div
+          class="emotion-25"
+        >
+          <div>
+            Total Period
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Custom
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div>
+            Standard
+          </div>
+        </div>
+        <div
+          class="emotion-43"
+          style="color: transparent;"
+        >
+          :)
+        </div>
+        <div
+          class="emotion-44"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          18.5k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          24.9k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          24.8k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          15.8k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          28.9k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          46.6k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          214k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          159k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          20k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          3.04k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-44"
+        >
+          20.1k
+        </div>
+        <div
+          class="emotion-44"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          50.9k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          17.1k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          14.1k
+        </div>
+        <div
+          class="emotion-56"
+        >
+          ---
+        </div>
+        <div
+          class="emotion-56"
+        >
+          20.1k
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

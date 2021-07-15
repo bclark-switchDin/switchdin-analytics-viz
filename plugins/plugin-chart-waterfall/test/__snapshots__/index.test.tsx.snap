@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plugin-chart-waterfall Chart with legend top 1`] = `
+Object {
+  "BarChartProps": Array [
+    Object {
+      "barCategoryGap": 0,
+      "children": Array [
+        <mockConstructor
+          iconSize={10}
+          iconType="circle"
+          payload={
+            Array [
+              Object {
+                "color": "#5AC189",
+                "id": "increase",
+                "type": "circle",
+                "value": "Increase",
+              },
+              Object {
+                "color": "#E04355",
+                "id": "decrease",
+                "type": "circle",
+                "value": "Decrease",
+              },
+              Object {
+                "color": "#66BCFE",
+                "id": "total",
+                "type": "circle",
+                "value": "Total",
+              },
+            ]
+          }
+          verticalAlign="top"
+          wrapperStyle={
+            Object {
+              "paddingBottom": 20,
+            }
+          }
+        />,
+        <mockConstructor
+          vertical={false}
+        />,
+        <mockConstructor
+          angle={-45}
+          dataKey="period_type"
+          dy={10}
+          interval={0}
+          tick={[Function]}
+        />,
+        <mockConstructor
+          tickFormatter={[Function]}
+        />,
+        <mockConstructor
+          formatter={[Function]}
+        />,
+        <mockConstructor
+          dataKey="COUNT(volume_for_roi)"
+          onClick={[Function]}
+          shape={[Function]}
+        >
+          <LabelList
+            content={[Function]}
+            dataKey="COUNT(volume_for_roi)"
+            position="top"
+            valueAccessor={[MockFunction]}
+          />
+        </mockConstructor>,
+      ],
+      "data": Array [
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            0,
+            122,
+          ],
+          "__TOTAL__": true,
+          "period": "__TOTAL__",
+          "period_type": "Total Period",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            122,
+            166,
+          ],
+          "period": "2018",
+          "period_type": "Custom",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            166,
+            208,
+          ],
+          "period": "2018",
+          "period_type": "Standard",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            0,
+            208,
+          ],
+          "__TOTAL__": true,
+          "period": "__TOTAL__",
+          "period_type": "2018",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            208,
+            252,
+          ],
+          "period": "2017",
+          "period_type": "Custom",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            252,
+            294,
+          ],
+          "period": "2017",
+          "period_type": "Standard",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            0,
+            294,
+          ],
+          "__TOTAL__": true,
+          "period": "__TOTAL__",
+          "period_type": "2017",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            294,
+            315,
+          ],
+          "period": "2020",
+          "period_type": "Custom",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            315,
+            334,
+          ],
+          "period": "2020",
+          "period_type": "Standard",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            0,
+            334,
+          ],
+          "__TOTAL__": true,
+          "period": "__TOTAL__",
+          "period_type": "2020",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            334,
+            354,
+          ],
+          "period": "2019",
+          "period_type": "Custom",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            354,
+            373,
+          ],
+          "period": "2019",
+          "period_type": "Standard",
+        },
+        Object {
+          "COUNT(volume_for_roi)": Array [
+            0,
+            373,
+          ],
+          "__TOTAL__": true,
+          "period": "__TOTAL__",
+          "period_type": "2019",
+        },
+      ],
+      "height": 400,
+      "margin": Object {
+        "bottom": 60,
+        "left": 10,
+      },
+      "width": 800,
+    },
+    Object {},
+  ],
+  "BarProps": Array [
+    Object {
+      "children": <LabelList
+        content={[Function]}
+        dataKey="COUNT(volume_for_roi)"
+        position="top"
+        valueAccessor={[MockFunction]}
+      />,
+      "dataKey": "COUNT(volume_for_roi)",
+      "onClick": [Function],
+      "shape": [Function],
+    },
+    Object {},
+  ],
+  "CartesianGridProps": Array [
+    Object {
+      "vertical": false,
+    },
+    Object {},
+  ],
+  "LegendProps": Array [
+    Object {
+      "iconSize": 10,
+      "iconType": "circle",
+      "payload": Array [
+        Object {
+          "color": "#5AC189",
+          "id": "increase",
+          "type": "circle",
+          "value": "Increase",
+        },
+        Object {
+          "color": "#E04355",
+          "id": "decrease",
+          "type": "circle",
+          "value": "Decrease",
+        },
+        Object {
+          "color": "#66BCFE",
+          "id": "total",
+          "type": "circle",
+          "value": "Total",
+        },
+      ],
+      "verticalAlign": "top",
+      "wrapperStyle": Object {
+        "paddingBottom": 20,
+      },
+    },
+    Object {},
+  ],
+  "TooltipProps": Array [
+    Object {
+      "formatter": [Function],
+    },
+    Object {},
+  ],
+  "XAxisProps": Array [
+    Object {
+      "angle": -45,
+      "dataKey": "period_type",
+      "dy": 10,
+      "interval": 0,
+      "tick": [Function],
+    },
+    Object {},
+  ],
+  "YAxisProps": Array [
+    Object {
+      "tickFormatter": [Function],
+    },
+    Object {},
+  ],
+}
+`;
