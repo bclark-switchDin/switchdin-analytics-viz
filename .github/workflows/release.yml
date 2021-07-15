@@ -1,0 +1,93 @@
+name: release-workflow
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  main:
+    name: Inject plugins into superset and push docker image
+
+    runs-on: ubuntu-latest
+    env:
+      SUPERSET_VERSION: '1.0'
+      PRESET_NAME: Nielsen
+    steps:
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Checkout viz plugins repo
+      uses: actions/checkout@v2
+      with:
+        path: superset-viz-plugins
+        # pulls all commits (needed for lerna / semantic release to correctly version)
+        fetch-depth: 0
+    - name: Get tags and filter trigger tags
+      run: |
+        git fetch --depth=1 origin "+refs/tags/*:refs/tags/*"
+        git fetch --prune
+      working-directory: ./superset-viz-plugins
+
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+      working-directory: ./superset-viz-plugins
+    - name: Build packages
+      run: yarn build
+      working-directory: ./superset-viz-plugins
+
+    - name: Configure npm and git
+      run: |
+        yarn logout
+        echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
+        cat $HOME/.npmrc
+
+        npm whoami
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git remote set-url origin "https://${GITHUB_TOKEN}@github.com/nielsen-oss/superset-viz-plugins.git" > /dev/null 2>&1
+      working-directory: ./superset-viz-plugins
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Bump version and publish package(s)
+      run: |
+        npm whoami
+        yarn prerelease
+        yarn ci:release-from-tag
+      working-directory: ./superset-viz-plugins
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+    - name: Checkout superset repo
+      uses: actions/checkout@v2
+      with:
+        repository: apache/incubator-superset
+        path: incubator-superset
+        ref: ${{ env.SUPERSET_VERSION }}
+
+
+    - name: Prepare superset build
+      run: |
+        sh ./scripts/prepare_build.sh
+      working-directory: ./superset-viz-plugins
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        PLUGINS_EXTRA_FILENAME: 'setupPluginsExtra.ts'
+
+
+    - name: build & push docker
+      shell: bash
+      env:
+        DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USERNAME }}
+        DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        REPOSITORY_NAME: 'nielsenoss/apache-superset'
+      run: |
+        chmod +x $GITHUB_WORKSPACE/superset-viz-plugins/.github/workflows/docker_build_push.sh
+        $GITHUB_WORKSPACE/superset-viz-plugins/.github/workflows/docker_build_push.sh $GITHUB_WORKSPACE/incubator-superset
+      working-directory: .
