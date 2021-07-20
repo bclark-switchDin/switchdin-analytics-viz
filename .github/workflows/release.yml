@@ -86,7 +86,7 @@ jobs:
       env:
         DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USERNAME }}
         DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
-        REPOSITORY_NAME: 'bclark-switchDin/apache-superset'
+        REPOSITORY_NAME: 'bclarkswitchdin/apache-superset'
         TAG_NAME: '1.3'
       run: |
         chmod +x $GITHUB_WORKSPACE/$PROJECT_WORKING_DIRECTORY/.github/workflows/docker_build_push.sh
